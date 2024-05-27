@@ -1,0 +1,78 @@
+.app-container {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    place-content: center;
+  }
+  
+  .container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #222;
+    color: #fff;
+    border-radius: 16px;
+    padding: 24px 32px;
+    margin: 0 auto;
+  }
+
+  .container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  strong {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 20px;
+  }
+  
+  .inputs-container > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  div > input {
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 16px;
+  }
+  
+  .register-button {
+    width: 45%;
+    align-self: center;
+    padding: 8px;
+    border: none;
+    background-color: #fff;
+    border-radius: 8px;
+    font-weight: 700;
+    margin-top: 8px;
+  }
+  
+.register-button:hover {
+    cursor: pointer;
+    background-color: #ff7011;
+    color: #fff;
+  }
+  
+  .firebase-register {
+    color: #ff7011;
+  }
+  
+  .already-user {
+    text-align: center;
+
+    a {
+      color: #ff7011;
+      font-weight: 700;
+      text-decoration: none;
+
+      &:hover {
+        color: #ffc663;
+      }
+    }
+  }

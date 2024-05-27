@@ -1,0 +1,85 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  place-content: center;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  border-radius: 16px;
+  padding: 24px 32px;
+  margin: 0 auto;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+}
+
+strong {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+
+.inputs-container > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+div > input {
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 16px;
+}
+
+select {
+  width: 45%;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+}
+
+.login-button {
+  width: 45%;
+  align-self: center;
+  padding: 8px;
+  border: none;
+  background-color: #fff;
+  border-radius: 8px;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.login-button:hover {
+  cursor: pointer;
+  background-color: #ffa611;
+  color: #fff;
+}
+
+.firebase {
+  color: #ffa611;
+}
+
+.not-user {
+    text-align: center;
+
+    a {
+      color: #ffa611;
+      font-weight: 700;
+      text-decoration: none;
+
+      &:hover {
+        color: #ffe6ba;
+      }
+    }
+  }

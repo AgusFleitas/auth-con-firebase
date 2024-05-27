@@ -1,0 +1,28 @@
+.bar-container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2D2D2D;
+    color: #fff;
+    font-weight: 700;
+
+    strong {
+        color: #ffa611;
+    }
+}
+
+.logout-button {
+    width: 120px;
+    height: 60%;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffa611;
+    font-weight: 700;
+
+    &:hover {
+        background-color: #ffe6ba;
+        cursor: pointer;
+    }
+}
